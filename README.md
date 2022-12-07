@@ -1,5 +1,6 @@
 # Labelling forest airborne laser scanning point clouds with terrestrial Laser Scanning reference
-
+ [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
+ 
 ## Project Overview ##
 The repository is developed by Yujie Cao, in close collaborations with [Tobias. D Jackson](https://github.com/TobyDJackson), [James Ball](https://github.com/PatBall1), during his visiting at Forest Conservation Group led by professor [David A. Coomes](https://scholar.google.com/citations?user=CXkjEhIAAAAJ&hl=en&oi=ao). The group is part of the University of Cambridge [Conservation Research Institute](https://www.conservation.cam.ac.uk/).
 
@@ -75,17 +76,17 @@ __The whole plot__
 
 __Individual tree visualization__
 
-+ Confidence Score = 1
++ Confidence Score = 7
 <p align="center">
 <img width="500" align="center" alt="predictions" src=./Figures/wytham_confidence_score_1.png>
 </p>
 
-+ Confidence Score = 2
++ Confidence Score = 6
 <p align="center">
 <img width="500" align="center" alt="predictions" src=./Figures/wytham_confidence_score_2.png>
 </p>
 
-+ Confidence Score = 3
++ Confidence Score = 5
 <p align="center">
 <img width="500" align="center" alt="predictions" src=./Figures/wytham_confidence_score_3.png>
 </p>
@@ -95,17 +96,17 @@ __Individual tree visualization__
 <img width="500" align="center" alt="predictions" src=./Figures/wytham_confidence_score_4.png>
 </p>
 
-+ Confidecne Score = 5
++ Confidecne Score = 3
 <p align="center">
 <img width="500" align="center" alt="predictions" src=./Figures/wytham_confidence_score_5.png>
 </p>
 
-+ Confidence Score = 6
++ Confidence Score = 2
 <p align="center">
 <img width="500" align="center" alt="predictions" src=./Figures/wytham_confidence_score_6.png>
 </p>
 
-+ Confidence Score = 7
++ Confidence Score = 1
 
 No Fallen tree was found in Wytham Woods case
 
