@@ -34,8 +34,8 @@ data is only accurate for canopy trees.*(*__Pre-print DOI__* :https://doi.org/10
 |   ├── color_mapping.py               <- Create mapping for random RGBs and IDs.
 |   ├── ALS_Labelling.py               <- Label airborne lidar point clouds with referenced terrestrial point clouds.
 |   ├── Post-process.py                <- Conduct core area fitting, cropping and terrain normalization
-├── README.md               
 ├── LICENSE
+├── README.md               
 └── requirements.txt
 ```
 
