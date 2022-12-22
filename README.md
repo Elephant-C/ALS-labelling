@@ -28,7 +28,6 @@ data is only accurate for canopy trees.*(*__Pre-print DOI__* :https://doi.org/10
 
 ## Project Organization ##
 ```
-├── README.md
 ├── Figures                            <- Figures used in reporting.
 ├── src                      
 |   ├── preprocess.py                  <- Find the rough range for further airborne lidar point clouds labelling.
