@@ -28,13 +28,13 @@ data is only accurate for canopy trees.*(*__Pre-print DOI__* :https://doi.org/10
 
 ## Project Organization ##
 ```
-├── README.md               
+├── README.md
+├── Figures                            <- Figures used in reporting.
 ├── src                      
 |   ├── preprocess.py                  <- Find the rough range for further airborne lidar point clouds labelling.
 |   ├── color_mapping.py               <- Create mapping for random RGBs and IDs.
 |   ├── ALS_Labelling.py               <- Label airborne lidar point clouds with referenced terrestrial point clouds.
 |   ├── Post-process.py                <- Conduct core area fitting, cropping and terrain normalization
-├── Figures                            <- Figures used in reporting.
 ├── README.md               
 ├── LICENSE
 └── requirements.txt
