@@ -29,18 +29,15 @@ data is only accurate for canopy trees.*(*__Pre-print DOI__* :https://doi.org/10
 ## Project Organization ##
 ```
 ├── README.md               
-├── preprocessing                      <- Operational Google Colab notebooks.
-|   ├── buffer_clip.py                 <- Created a buffered area to keep a complete description for individual trees located in the boundary region of core area.
-├── auto ALS-TLS registration          <- In development...
-├── ALS Labelling                      
-|   ├── color_mapping.py               <- Create random RGBs with IDs and concersion of these two items.
-|   ├── ALS_Labelling.py               <- Label ALS data with TLS reference.
-|   ├── run.py                         <- Pipline script for ALS labelling.
-├── Post-processing                    
-|   ├── terrain_normalization.R .      <- Normalize terrain.
-|   ├── corearea_boundary_fitting.py   <- Fit the core area boundary with concave fitting.
-|   ├── corearea_cropping.R            <- crop core area ALS point clouds.
-└── requirements
+├── src                      
+|   ├── preprocess.py                  <- Find the rough range for further airborne lidar point clouds labelling.
+|   ├── color_mapping.py               <- Create mapping for random RGBs and IDs.
+|   ├── ALS_Labelling.py               <- Label airborne lidar point clouds with referenced terrestrial point clouds.
+|   ├── Post-process.py                <- Conduct core area fitting, cropping and terrain normalization
+├── Figures                            <- Figures used in reporting.
+├── README.md               
+├── LICENSE
+└── requirements.txt
 ```
 
 ## Workflow ##
