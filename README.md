@@ -30,10 +30,10 @@ data is only accurate for canopy trees.*(*__Pre-print DOI__* :https://doi.org/10
 ```
 ├── Figures                            <- Figures used in reporting.
 ├── src                      
-|   ├── preprocess.py                  <- Find the rough range for further airborne lidar point clouds labelling.
+|   ├── pre_process.py                 <- Find the rough range for further airborne lidar point clouds labelling.
 |   ├── color_mapping.py               <- Create mapping for random RGBs and IDs.
-|   ├── ALS_Labelling.py               <- Label airborne lidar point clouds with referenced terrestrial point clouds.
-|   ├── Post-process.py                <- Conduct core area fitting, cropping and terrain normalization
+|   ├── label_als_with_tls.py          <- Label airborne lidar point clouds with referenced terrestrial point clouds.
+|   ├── post_process.py                <- Conduct core area fitting, cropping and terrain normalization
 ├── LICENSE
 ├── README.md               
 └── requirements.txt
