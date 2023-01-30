@@ -53,7 +53,7 @@ if __name__ == '__main__':
         print("tls point clouds:", tls_pcd)
         '''
         o3d.visualization.draw_geometries([als_pcd, tls_pcd],
-                                        window_name="原始点云",
+                                        window_name="original point clouds",
                                         width=800, height=600)
         '''
         # get corner point by get_max_bound
