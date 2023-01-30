@@ -1,4 +1,4 @@
-# Labelling forest airborne laser scanning point clouds with terrestrial Laser Scanning reference
+# Label forest airborne laser scanning point clouds with terrestrial Laser Scanning reference
  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
  
 ## Project Overview ##
