@@ -76,7 +76,7 @@ if __name__ == '__main__':
         out_box_cloud.paint_uniform_color(np.asarray([0.75, 0.75, 0.75]))
         print("in cropping point clouds:", in_box_cloud)
         #o3d.visualization.draw_geometries([tls_pcd, in_box_cloud, out_box_cloud],
-        #                                window_name='裁剪出的点云',
+        #                                window_name='clipped point clouds',
         #                                width=800, height=600)
         outpts = pd.DataFrame(in_box_cloud.points, columns=['X','Y','Z'])
         outname = tls_file
