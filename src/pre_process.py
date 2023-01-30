@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 def crop_filter(cloud, min_x: int, max_x: int, min_y: int, max_y: int, min_z: int, max_z: int):
     """
-    获取指定区域的点 Set X and Y ranges of cropping box 
+    Set X and Y ranges of cropping box 
     :param cloud: input point clouds
     :param min_x: minimal X 
     :param max_x: maximum X 
