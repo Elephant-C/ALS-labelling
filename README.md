@@ -5,8 +5,8 @@
 The repository is developed by [Yujie Cao](https://github.com/Elephant-C), in close collaborations with [Tobias. D Jackson](https://github.com/TobyDJackson), [James G.C. Ball](https://github.com/PatBall1), during his visiting at Forest Conservation Group led by professor [David A. Coomes](https://scholar.google.com/citations?user=CXkjEhIAAAAJ&hl=en&oi=ao). The group is part of the University of Cambridge [Conservation Research Institute](https://www.conservation.cam.ac.uk/).
 
 This repository is used to create two robust international ALS benchmark data sets: Wythams Woods (temperate broadleaves) in the UK and Sepilok Forest (tropical rainforest) in the Sabah, Malaysia. The two benchmarks serve as the data source for inter-comparison for airborne LiDAR individual tree segmentation algorithms (project repository: [2D Tree crown polygon-based assessment for airborne LiDAR-based individual tree segmentation methods
-](https://github.com/Elephant-C/tree-crown-based-assessment)). For more information about the whole work, please refer to my paper: *__Tree segmentation in airborne laser scanning
-data is only accurate for canopy trees.__* 
+](https://github.com/Elephant-C/tree-crown-based-assessment)). For more information about the whole work, please refer to my paper: *__Benchmarking airborne laser scanning tree segmentation algorithms in broadleaf forests shows high accuracy only for canopy trees
+.__* 
 
 __If you use this code in your work, please cite the following paper in a proper way:__
 
