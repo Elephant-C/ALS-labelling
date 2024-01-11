@@ -11,7 +11,7 @@ This repository is used to create two robust international ALS benchmark data se
 __If you use this code in your work, please cite the following paper in a proper way:__
 
 *Yujie Cao, James G C Ball, David A. Coomes, Leon Steinmeier, Nikolai Knapp, Phil Wilkes, Kim Calders, Andrew Burt, Mathias Disney, Yi Lin, and Tobias D. Jackson. Benchmarking airborne laser scanning tree segmentation algorithms in broadleaf forests shows high accuracy only for canopy trees
-.*(*__DOI__* : 10.1016/j.jag.2023.103490).
+.*(*__DOI__* : [10.1016/j.jag.2023.103490](https://www.sciencedirect.com/science/article/pii/S156984322300314X?via%3Dihub).
 
 ## Why this work? ##
 
